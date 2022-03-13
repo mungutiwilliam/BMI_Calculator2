@@ -1,6 +1,14 @@
-{
-  "weight": "70",
-  "height": "1.8",
-  "BMI": "21.604938271604937",
-  "Summary": "Normal weight"
-}
+[
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "summary": "Underweight"
+  }
+]
