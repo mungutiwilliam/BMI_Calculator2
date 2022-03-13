@@ -10,7 +10,6 @@ const urlEncodedParser = bodyParser.urlencoded({extended: false});
 let rawData = fs.readFileSync(fileName);
 let data = JSON.parse(rawData);
 
-
 app.set('views','views');
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
@@ -20,7 +19,6 @@ app.get('/', function(request, response){
       response.render('bmi');
       
 });
-
 
 //RESTful GET web service
 app.get('/process-data', function (request, response) {
@@ -35,23 +33,18 @@ app.post('/process-data', urlEncodedParser, function(request, response) {
       const fs = require('fs');
       const path = require('path');
 
-      let info = [
+      let info = 
             {
                   weight: request.body.weight,
                   height: request.body.height,
                   BMI: request.body.BMI,
                   Summary: request.body.summary
-            }
-      ];
-      
-      info.push(request.body);
-      let data = JSON.stringify(info, null, 2);
-      fs.writeFileSync('info.json', data, (err) => {
-            if (err) throw err;
-            console.log('Data written to file');
-      });     
-      
-      response.end('Successfully recorded on database!'); //+ (request.body.weight + '' + request.body.height); 
+            };
+
+      data.push(info);
+      fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
+
+      response.end('Successfully recorded on database!'); 
 });
 
 app.listen(port);
