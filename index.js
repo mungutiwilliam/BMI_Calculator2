@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const fs = require('fs');
 const fileName = 'info.json';
 const bodyParser = require('body-parser');
@@ -48,4 +48,4 @@ app.post('/process-data', urlEncodedParser, function(request, response) {
 });
 
 app.listen(port);
-console.log('Node server started on port 3000');
+console.log('Node server started on port: ${port}');
