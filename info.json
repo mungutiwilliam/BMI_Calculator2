@@ -26,5 +26,155 @@
     "height": "1.9",
     "BMI": "19.390581717451525",
     "Summary": "Normal weight"
+  },
+  {
+    "weight": "70",
+    "height": "1.8",
+    "BMI": "21.604938271604937",
+    "Summary": "Normal weight"
+  },
+  {
+    "weight": "53",
+    "height": "1.5",
+    "BMI": "23.555555555555557",
+    "Summary": "Normal weight"
+  },
+  {
+    "weight": "60",
+    "height": "1.5",
+    "BMI": "26.666666666666668",
+    "Summary": "Overweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.6",
+    "BMI": "15.624999999999996",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "72",
+    "height": "1.9",
+    "BMI": "19.94459833795014",
+    "Summary": "Normal weight"
+  },
+  {
+    "weight": "72",
+    "height": "1.9",
+    "BMI": "19.94459833795014",
+    "Summary": "Normal weight"
+  },
+  {
+    "weight": "72",
+    "height": "1.9",
+    "BMI": "",
+    "Summary": ""
+  },
+  {
+    "weight": "72",
+    "height": "1.5",
+    "BMI": "32",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "70",
+    "height": "1.8",
+    "BMI": "21.604938271604937",
+    "Summary": "Normal weight"
+  },
+  {
+    "weight": "90",
+    "height": "1.2",
+    "BMI": "62.5",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "40",
+    "height": "1.6",
+    "BMI": "15.624999999999996",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.6",
+    "BMI": "15.624999999999996",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.5",
+    "BMI": "17.77777777777778",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "70",
+    "height": "1.5",
+    "BMI": "31.11111111111111",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "72",
+    "height": "1.6",
+    "BMI": "28.124999999999993",
+    "Summary": "Overweight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight"
+  },
+  {
+    "weight": "70",
+    "height": "1.5",
+    "BMI": "31.11111111111111",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "88",
+    "height": "1.7",
+    "BMI": "30.449826989619382",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "70",
+    "height": "1.5",
+    "BMI": "31.11111111111111",
+    "Summary": "Obesity"
+  },
+  {
+    "weight": "60",
+    "height": "1.6",
+    "BMI": "23.437499999999996",
+    "Summary": "Normal weight"
   }
 ]
