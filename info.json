@@ -176,5 +176,32 @@
     "height": "1.6",
     "BMI": "23.437499999999996",
     "Summary": "Normal weight"
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight",
+    "_locals": {}
+  },
+  {
+    "weight": "40",
+    "height": "1.8",
+    "BMI": "12.345679012345679",
+    "Summary": "Underweight",
+    "_locals": {}
+  },
+  {
+    "weight": "60",
+    "height": "1.6",
+    "BMI": "23.437499999999996",
+    "Summary": "Normal weight",
+    "_locals": {}
+  },
+  {
+    "weight": "70",
+    "height": "1.8",
+    "BMI": "21.604938271604937",
+    "Summary": "Normal weight"
   }
 ]
