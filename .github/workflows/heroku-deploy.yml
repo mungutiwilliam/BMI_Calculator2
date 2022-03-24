@@ -13,17 +13,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-<<<<<<< HEAD
-    - uses: akhileshns/heroku-deploy@3.12.12
-
-    with:
-      heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-      heroku_app_name: "bmi-calculatorr"   #must be unique in Heroku
-      heroku_email: "laurynsheri@gmail.com"
-=======
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "bmi-calculatorr"   #must be unique in Heroku
         heroku_email: "laurynsheri@gmail.com"
->>>>>>> 31568077767dffa240e023e3687d04954af83527
+
+   
+
