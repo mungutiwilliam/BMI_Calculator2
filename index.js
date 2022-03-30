@@ -45,10 +45,10 @@ app.post('/process-data', urlEncodedParser, function(request, response) {
 
       data.push(info);
       fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-
-
+      
       response.render('results', info);
       //response.end('Successfully recorded on database!'); 
+      
 });
 
 app.listen(port);
