@@ -3,8 +3,6 @@ function cal (weight, height) {
       var result = weight/(height * height);
       //return result;
 
-      
-
       if (result <= 18.5){
             return "Underweight";
       } else if(result > 18.5 && result <= 24.9){
@@ -15,6 +13,5 @@ function cal (weight, height) {
             return "Obese";
       }
 }
-
 
 module.exports = {cal};
