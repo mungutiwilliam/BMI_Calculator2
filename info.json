@@ -234,5 +234,24 @@
     "height": "2.0",
     "BMI": "20",
     "Summary": "Normal weight"
+  },
+  {
+    "weight": "40",
+    "height": "1.2",
+    "BMI": "27.77777777777778",
+    "Summary": "Overweight"
+  },
+  {
+    "weight": "60",
+    "height": "1.4",
+    "BMI": "30.612244897959187",
+    "Summary": "Obese",
+    "_locals": {}
+  },
+  {
+    "weight": "76",
+    "height": "1.4",
+    "BMI": "38.77551020408164",
+    "Summary": "Obese"
   }
 ]

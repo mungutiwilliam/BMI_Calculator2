@@ -14,18 +14,14 @@ app.set('views','views');
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
 
-app.get('/', function(request, response){
-           
-      response.render('bmi');
-      
+app.get('/', function(request, response){         
+      response.render('bmi');     
 });
 
 //RESTful GET web service
-app.get('/process-data', function (request, response) {
-      
+app.get('/process-data', function (request, response) {  
       data.sort((a, b) => (a.name > b.name) ? 1 : -1);
-      response.send(data);
-      
+      response.send(data);     
 });
 
 //RESTful POST web service
@@ -45,11 +41,12 @@ app.post('/process-data', urlEncodedParser, function(request, response) {
 
       data.push(info);
       fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-      
       response.render('results', info);
-      //response.end('Successfully recorded on database!'); 
-      
+      response.end('Successfully recorded!');      
 });
+
+
+
 
 app.listen(port);
 console.log(`Node server started on port: ${port}`);
